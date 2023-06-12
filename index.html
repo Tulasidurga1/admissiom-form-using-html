@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission From</title>
+    
+</head>
+<body>
+    <div>
+        <center><h1>Admission Form</h1></center>
+        <div>
+            <form>
+                <fieldset>
+                    <div>
+                        <label>First Name</label>
+                        <input  type="text" name="fname" placeholder="first Name" required/>
+
+                    </div><br>
+                    <div>
+                        <label>Last Name: </label>
+                        <input type="text" name="lName" placeholder="Last Name" required/>
+                    </div><br>
+                    <div>
+                        <label>Gender: </label>
+                        <select name="gender">
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div><br>
+
+
+
+                    <label >DOB</label>
+          <input type="datetime-local" name="" id="">
+          <br><br>
+
+                                <label>   
+                                Course :  
+                                </label>   
+                                <select>  
+                                <option value="Course">Course</option>  
+                                <option value="BCA">BCA</option>  
+                                <option value="BBA">BBA</option>  
+                                <option value="B.Tech">B.Tech</option>  
+                                <option value="MBA">MBA</option>  
+                                <option value="MCA">MCA</option>  
+                                <option value="M.Tech">M.Tech</option>  
+                                </select>  
+                                
+                                <br>  <br>
+                                 
+
+                                <label for="">Address  </label>
+        <br>  
+        <textarea cols="80" rows="5" value="address">  
+        </textarea>  
+        <br> <br>
+
+                    <hr>
+                    <div>
+                        <label>Cast: </label><br>
+                        <input type="radio"  name="cast" value="SC">SC</input>
+                        <input type="radio" name="cast" value="ST" >ST</input>
+                        <input type="radio" name="cast" value="OBC" >OBC</input>
+                        <input type="radio" name="cast" value="OPEN">OPEN</input>
+                    </div><br>
+                    <div>
+                        <label>Language: </label><br>
+                        <input type="checkbox" name="marathi" value="marathi">Marathi</input>
+                        <input type="checkbox" name="hindi" value="hindi" >Hindi</input>
+                        <input type="checkbox" name="english" value="english" >English</input>
+                        <input type="checkbox" name="tamil" value="tamil">Tamil</input>
+                        <input type="checkbox" name="telgu" value="telgu">Telgu</input>
+                    </div>
+                    <hr>
+                    <h5>Previous Academic Record</h5>
+                    <div>
+                        <label>School Name: </label>
+                        <input type="text" name="phone" placeholder="Previous school name" pattern="[A-Za-z]" />
+                    </div>
+                   <br><br> 
+                    <div>
+                        <label>Percentage: </label>
+                        <input type="text" name="phone" placeholder="percentage" pattern="[0-9]" maxlength="3" />
+                    </div>
+                    
+                    <br><br> 
+                    <input type="checkbox" name="" id="">Agree to terms and conditions
+        <br><br><br>
+        <input type="reset" value="Reset"/> 
+        <input type="button" value="Submit"/>  
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
